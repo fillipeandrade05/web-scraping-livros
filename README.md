@@ -1,15 +1,14 @@
-# Web Scraping de Livros com Python
+# Book Web Scraping with Python
 
-Este é um projeto simples de automação em Python que realiza a raspagem de dados (web scraping) do site Books to Scrape, extraindo os títulos e preços dos livros e gerando uma planilha em Excel formatada.
+This is a simple automation project in Python that performs web scraping on the Books to Scrape website, extracting book titles and prices, and generating a formatted Excel spreadsheet.
 
-## Tecnologias Utilizadas
+## Technologies Used
 - **Python**
-- **Requests** (para requisições HTTP)
-- **BeautifulSoup** (para extração do HTML)
-- **Pandas** (para manipulação e exportação de dados para Excel)
+- **Requests** (for HTTP requests)
+- **BeautifulSoup** (for HTML parsing)
+- **Pandas** (for data manipulation and Excel export)
 
-## Como Executar
-1. Instale as dependências necessárias:
+## How to Run
+1. Install the required dependencies:
    ```bash
    pip install requests beautifulsoup4 pandas openpyxl
-   
